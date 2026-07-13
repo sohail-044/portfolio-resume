@@ -65,3 +65,39 @@ nav ul li a{
     border-radius:5px;
     margin:5px;
 }
+.about,
+.skills,
+.projects{
+    padding:80px 10%;
+    text-align:center;
+}
+
+.about p{
+    max-width:800px;
+    margin:auto;
+    line-height:1.8;
+}
+
+.skill-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+    margin-top:30px;
+}
+
+.skill{
+    background:#007bff;
+    color:white;
+    padding:12px 20px;
+    border-radius:20px;
+}
+
+.project-card{
+    background:white;
+    padding:25px;
+    margin:20px auto;
+    max-width:800px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
