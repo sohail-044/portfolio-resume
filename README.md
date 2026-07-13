@@ -4,7 +4,8 @@ A responsive personal portfolio website built using **HTML, CSS, and JavaScript*
 
 ## 🚀 Live Demo
 
-https://your-portfolio.vercel.app
+https://portfolio-resume-indol.vercel.app
+
 
 ## 📂 GitHub Repository
 
