@@ -1,1 +1,11 @@
-console.log("Portfolio Website Loaded!");
+const themeBtn = document.getElementById("theme-btn");
+
+themeBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+
+    if (document.body.classList.contains("dark-mode")) {
+        themeBtn.innerText = "☀️";
+    } else {
+        themeBtn.innerText = "🌙";
+    }
+});
